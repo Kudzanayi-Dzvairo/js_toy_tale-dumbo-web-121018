@@ -30,7 +30,7 @@ toyDiv.innerHTML +=
     `<div class="card" data-id=${toy.id}>
     <h2>${toy.name}</h2>
     <img src="${toy.image}" class="toy-avatar"/>
-    <p data-id=${toy.id}> ${toy.likes} Cumshots </p>
+    <p data-id=${toy.id}> ${toy.likes} Likes </p>
     <button data-id=${toy.id} class="like-btn">Like <3</button>
   </div>`
 }
